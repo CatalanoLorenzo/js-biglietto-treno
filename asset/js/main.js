@@ -8,7 +8,10 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 
 //chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero.
+const kilometersToGo = prompt ("Quanti chilometri vuoi percorrere ?");
+const userAge = prompt ("quanti anni hai?");
 
+console.log(kilometersToGo, userAge);
 
 //Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio
 
