@@ -14,9 +14,11 @@ const userAge = prompt ("quanti anni hai?");
 console.log(kilometersToGo, userAge);
 
 //Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio
-
+const costForKm = 0.21;
+console.log(costForKm);
 //il prezzo del biglietto è definito in base ai km (0.21 € al km)
-
+const costtot = costForKm * kilometersToGo;
+console.log(costtot);
 //va applicato uno sconto del 20% per i minorenni
 
 //va applicato uno sconto del 20% per i minorenni
