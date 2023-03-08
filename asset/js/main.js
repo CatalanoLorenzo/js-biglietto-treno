@@ -28,7 +28,7 @@ if(userAge <= 18){
 //va applicato uno sconto del 40% per gli over 65.
     
 }else (userAge >=65) {
-    costTotWhitSald = calcolaPerc(costTot - saldOver)
+    costTotWhitSald = calcolaPerc(costTot - saldOver);
 }
 console.log(costTotWhitSald);
 //L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo)
