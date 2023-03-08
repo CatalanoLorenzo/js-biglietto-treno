@@ -30,5 +30,9 @@ if(userAge <= 18){
 }else if(userAge >=65) {
     costTotWhitSald = costTot - ((costTot * saldOver) / 100);
 }
-console.log(costTotWhitSald);
+
 //L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo)
+costTotWhitSald = costTotWhitSald.toFixed(2);
+let costo = document.getElementById("costo_display");
+console.log(costTotWhitSald);
+costo.innerHTML = costTotWhitSald;
