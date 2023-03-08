@@ -24,11 +24,11 @@ let costTotWhitSald;
 const saldMinors = 20;
 const saldOver = 40;
 if(userAge <= 18){
-    costTotWhitSald = calcolaPerc(costTot,saldMinors);
+    costTotWhitSald = costTot - ((costTot * saldMinors) / 100) ;
 //va applicato uno sconto del 40% per gli over 65.
     
 }else if(userAge >=65) {
-    costTotWhitSald = calcolaPerc(costTot - saldOver);
+    costTotWhitSald = costTot - ((costTot * saldOver) / 100);
 }
 console.log(costTotWhitSald);
 //L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo)
